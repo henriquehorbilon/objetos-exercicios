@@ -13,3 +13,20 @@ const filme = {
 }
 
 // respostas aqui ⬇️
+
+//a)
+ const primeiroAtor = filme.elenco[0]
+ console.log(primeiroAtor)
+
+ //b)
+
+ const ultimoAtor = filme.elenco[3]
+ console.log(ultimoAtor)
+
+ //c)
+ const todasTransmissoes = filme.transmissoesHoje
+ console.log(todasTransmissoes)
+
+ //d)
+ const escolherFilme = filme.transmissoesHoje[1]
+ console.log(escolherFilme)
